@@ -1,0 +1,44 @@
+.inputs { 
+    text-align : center ; 
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+input {
+    max-width: 80%;  /* 横幅に合わせて自動縮小するが、拡大はしない */
+    margin: 0 auto;
+ }
+
+/* #contents {
+    overflow: hidden;
+  }
+  .elements {
+    float: left;
+    width: 10vw;
+    margin-right: 50px;
+  }
+  
+  .elements:last-child {
+    margin-right: 0;
+  } */
+
+  #contents {
+    width: 90%;
+    /* min-width: 640px; */
+    margin: 0 auto;
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -o-box;
+    display: -ms-box;
+    box-pack: justify;
+    -moz-box-pack: justify;
+    -webkit-box-pack: justify;
+    -o-box-pack: justify;
+    -ms-box-pack: justify; 
+}
+.elements {
+    width: 20vw;
+    height: auto;
+    display: block;
+}
