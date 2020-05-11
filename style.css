@@ -1,4 +1,5 @@
 body{
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
     overscroll-behavior: none;
@@ -11,6 +12,8 @@ body{
 }
 
 #message{
+    font-size: 250%;
+    font: YuGothic;
     text-align : center ; 
     padding-top: 5vh;
     padding-bottom: 5vh;
