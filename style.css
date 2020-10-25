@@ -11,6 +11,14 @@ body{
     padding-bottom: 5vh;
 }
 
+.select_strength{
+    text-align : center ; 
+    /* width:80vw; */
+    /* zoom: 1.5; */
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
 #message{
     font-size: 250%;
     font: YuGothic;
@@ -44,4 +52,23 @@ input {
     width: 20vw;
     height: auto;
     display: block;
+}
+
+#video-background,
+#video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+ 
+#video-background {
+  z-index: -2;
+}
+ 
+#video-overlay {
+  z-index: -1;
 }
